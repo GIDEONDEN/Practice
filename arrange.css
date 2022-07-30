@@ -1,0 +1,112 @@
+
+.button{
+    padding: 7px 7px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 2px;
+    transition: opacity .25s;
+    transition: box-shadow .8;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    
+}
+
+.button:hover{
+    background-color: rgb(139, 15, 255);
+    opacity: .7;
+    box-shadow: 5px 5px 6px rgba(238, 7, 7, 0.15);
+}
+.button:active{
+    color: greenyellow;
+    background-color: blue;
+}
+.button2{
+    color: black;
+    background-color: rgb(233, 207, 76);
+    padding: 4px 29px;
+    border-radius: 20px;
+    border: none;
+    transition: opacity .25s;
+    transition: padding-inline 3s;
+}
+.button2:hover{
+    opacity: .7;
+    background-color: blue;
+    padding-inline: 10px;
+    
+    
+}
+.button3{
+    color: white;
+    background-color:rgb(46, 164, 49);
+    border: none;
+    border-radius: 2px;
+    padding: 4px 9px;
+    transition: padding 3s;
+    transition: opacity .25s;
+}
+.button3:hover{
+    color: white;
+    opacity: .8;
+    background-color: blueviolet;
+    padding: 1px 6px 1px 6px;
+    border: none;
+    height: 25px;
+    font-size: 11px;
+    width: 70px;
+    border-radius: 2px;
+}
+.button4{
+    color: white;
+    background-color: rgb(121, 82, 179);
+    padding-inline: 6px;
+    padding-block: 5px;
+    border-radius: 3px;
+    border: none;
+    font-size: 7px;
+    
+}
+.button5{
+    color: rgb(108, 117, 125);
+    border-color: rgb(122, 122, 223);
+    font-size: 8px; 
+    border-radius: 2px;
+    background-color: #fff;
+    padding-inline: 6px;
+    padding-block: 5px;
+    border-radius: 3px;
+    border: none;
+    font-size: 7px;
+    border-style: solid;
+    border-width: 0.3px;
+    
+
+}
+.button6{
+    color: #fff;
+    background-color: rgb(10, 102, 194);
+    border-radius: 10px;
+    border: none;
+    height: 22px;
+    margin-left: 30px;
+    font-size: 10px;
+    
+}
+.button7{
+    color: rgb(51, 51, 173);
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    border-width: .2px;
+    border-color: rgb(51, 51, 173);
+    border-radius: 13px;
+    border-style: solid;
+    padding-left: 5px;
+    font-size: 8px;
+    font-weight: 30px;
+}
+
